@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Porsche</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Logo  -->
+        <link rel="icon" type="image/png" href="img/logo/logo-porsche.PNG">
+        <!-- *** Logo -->
+        <body>
+            <header>
+                <nav>
+                    <div class="wrapper">
+                      <div class="logo"><a href="#"><Img src="Img/logo/logo-porsche.PNG"></a></div>
+                      <input type="radio" name="slider" id="menu-btn">
+                      <input type="radio" name="slider" id="close-btn">
+                      <ul class="nav-links">
+                        <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
+                        <li>
+                          <a href="index.html" class="desktop-item fa fa-home"aria-hidden="true"> Accueil</a>
+                          <input type="checkbox" id="showDrop">
+                          <label for="showDrop" class="mobile-item" fa fa-home>Accueil</label>
+                          <ul class="drop-menu">
+                            <li><a href="#shop">Shop</a></li>
+                            <li><a href="#histoire">Histoire</a></li>
+                            <li><a href="#">Maps</a></li>
+                            <li><a href="#">Vidéo</a></li>
+                          </ul>
+                        <li><a href="Profil.html" class="fa fa-user-circle-o" aria-hidden="true"> Profil</a></li>
+                        <li><a href="contact.html" class="fa fa-comment-o buttom-active" aria-hidden="true"> Contact</a></li>
+                      </ul>
+                      <label for="menu-btn" class="btn menu-btn"><i class="fa fa-bars"></i></label>
+                    </div>
+                  </nav>
+            </header>
+            <main>
+    <div class="contact-main">
+        <h2>Contact</h2>
+        <p>
+            Bien sûr, voici un exemple de texte que vous pourriez utiliser pour la page de contact de votre site web :<br>
+            <br>
+            <u>Contactez-Nous</u><br>
+            <br>
+            Nous sommes ravis de pouvoir entrer en contact avec vous ! Que vous ayez des questions, des commentaires ou simplement l'envie de discuter, nous sommes là pour vous. Vous pouvez nous joindre de plusieurs manières :<br>
+            <br>
+            Par Téléphone : Si vous préférez une communication plus directe, n'hésitez pas à nous appeler au 8000 000 80.<br>
+            <br>
+            Réseaux Sociaux : Suivez-nous sur les réseaux sociaux pour rester informé(e) de nos dernières actualités et mises à jour.<br>
+            <br>
+            Nous apprécions votre intérêt pour [nom de votre entreprise]. Nous nous engageons à vous fournir le meilleur service possible et à répondre à toutes vos demandes. N'hésitez pas à nous contacter, nous sommes là pour vous servir.<br>
+            <br>
+            N'oubliez pas de personnaliser ce texte en remplaçant les informations entre crochets par les coordonnées et les détails spécifiques de votre entreprise. Assurez-vous également de fournir un formulaire de contact fonctionnel sur votre site web pour faciliter la communication avec vos visiteurs.<br>
+        </p>
+            <!--Création d'input, focus, not et invilid-->
+            <form id="emailForm">
+                <input type="email" id="emailInput" placeholder="Entrez votre e-mail" required>
+                <br>
+                <button type="button" id="emailButton" onclick="validateEmail()">Envoyer</button>
+                <script src="js/scriptMail.js"></script>
+            </form>            
+      </div>
+    </main>
+    <footer>
+      <div class="txt-footer">
+          <h3>À Propos</h3>
+          <p>© 2023 Docquier. Tous droits réservés. Ce site a été créé dans le cadre de l'examen de web. Conçu avec passion et dévouement pour l'apprentissage. L'aventure continue </p>
+      </div>
+      <div class="liens-footer">
+          <h3>Liens</h3>
+          <ul>
+              <li>
+                  <a href="contact.html">Contact</a>
+              </li>
+              <li>
+                  <a href="#">Contributions</a>
+                </li>
+                <li>
+                    <a href="#">copyright&copy;</a>
+              </li>
+          </ul>
+      </div>
+      <div class="social-footer">
+          <h3>Nos réseaux</h3>
+          <ul>
+              <li>
+                  <a href="#" class="fa fa-instagram"></a>
+              </li>
+              <li>
+                  <a href="#" class="fa fa-facebook"></a>
+              </li>
+              <li>
+                  <a href="#" class="fa fa-twitter"></a>
+              </li>
+          </ul>
+</footer>
