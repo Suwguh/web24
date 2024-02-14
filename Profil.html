@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Logo l'onglet de la page -->
+    <link rel="icon" type="image/png" href="img/logo/logo-porsche.PNG">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="wrapper">
+              <div class="logo"><a href="#"><Img src="Img/logo/logo-porsche.PNG"></a></div>
+              <input type="radio" name="slider" id="menu-btn">
+              <input type="radio" name="slider" id="close-btn">
+              <ul class="nav-links">
+                <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
+                <li>
+                  <a href="index.html" class="desktop-item fa fa-home"aria-hidden="true"> Accueil</a>
+                  <input type="checkbox" id="showDrop">
+                  <label for="showDrop" class="mobile-item" fa fa-home>Accueil</label>
+                  <ul class="drop-menu">
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#histoire">Histoire</a></li>
+                    <li><a href="#">Maps</a></li>
+                    <li><a href="#">Vidéo</a></li>
+                  </ul>
+                <li><a href="Profil.html" class="fa fa-user-circle-o buttom-active" aria-hidden="true"> Profil</a></li>
+                <li><a href="contact.html" class="fa fa-comment-o" aria-hidden="true"> Contact</a></li>
+              </ul>
+              <label for="menu-btn" class="btn menu-btn"><i class="fa fa-bars"></i></label>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div id="profilMain">
+            <ol>
+                <li>Nom : Docquier</li>
+                <li>Prénom : Donahugh</li>
+                <li>Age : 17 ans</li>
+                <li><a href="mailto:200055@site.asty-moulin.be">Email</a></li>
+            </ol>
+            
+        <div class="loader-wrapper">
+            <div class="loader" id="loader">
+            </div>
+        </div>
+            <div class="content" id="content">
+            <img src="Img/Profil/Profil.png" alt="Votre Image">
+        </div>
+        <script src="js/scriptBarreLoading.js"></script>
+    </div>
+    <button id="startButton">Démarrer le Chargement</button>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+            <script src="js/progressBar.js"></script>
+        </div>
+    </main>
+    <footer>
+      <div class="txt-footer">
+          <h3>À Propos</h3>
+          <p>© 2023 Docquier. Tous droits réservés. Ce site a été créé dans le cadre de l'examen de web. Conçu avec passion et dévouement pour l'apprentissage. L'aventure continue </p>
+      </div>
+      <div class="liens-footer">
+          <h3>Liens</h3>
+          <ul>
+              <li>
+                  <a href="contact.html">Contact</a>
+              </li>
+              <li>
+                  <a href="#">Contributions</a>
+              </li>
+              <li>
+                  <a href="#">copyright&copy;</a>
+              </li>
+          </ul>
+      </div>
+      <div class="social-footer">
+          <h3>Nos réseaux</h3>
+          <ul>
+              <li>
+                  <a href="#" class="fa fa-instagram"></a>
+              </li>
+              <li>
+                  <a href="#" class="fa fa-facebook"></a>
+              </li>
+              <li>
+                  <a href="#" class="fa fa-twitter"></a>
+              </li>
+          </ul>
+</footer>

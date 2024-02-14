@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Métadonnées du document -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titre de la page -->
+    <title>Porsche</title>
+    <!-- Liens vers les feuilles de style -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Logo -->
+    <link rel="icon" type="image/png" href="img/logo/logo-porsche.PNG">
+</head>
+<body>
+    <!-- En-tête de la page -->
+    <header>
+        <nav>
+            <!-- Conteneur de la barre de navigation -->
+            <div class="wrapper">
+                <!-- Logo avec un lien vers la page d'accueil -->
+                <div class="logo"><a href="#"><img src="img/logo/logo-porsche.PNG" alt="Porsche Logo"></a></div>
+                <!-- Boutons de navigation pour les appareils mobiles -->
+                <input type="radio" name="slider" id="menu-btn">
+                <input type="radio" name="slider" id="close-btn">
+                <!-- Liste des liens de navigation -->
+                <ul class="nav-links">
+                    <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
+                    <li>
+                        <!-- Lien vers la page d'accueil -->
+                        <a href="index.html" class="desktop-item buttom-active fa fa-home" aria-hidden="true"> Accueil</a>
+                        <!-- Checkbox et label pour le menu déroulant sur les appareils mobiles -->
+                        <input type="checkbox" id="showDrop">
+                        <label for="showDrop" class="mobile-item buttom-active">Menu</label>
+                        <!-- Menu déroulant avec des liens supplémentaires -->
+                        <ul class="drop-menu">
+                            <li><a href="index.html" class="fa fa-home">Accueil</a></li>
+                            <li><a href="#histoire">Histoire</a></li>
+                            <li><a href="gt3-rs.html">GT3 RS</a></li>
+                            <li><a href="#">Vidéo</a></li>
+                        </ul>
+                    </li>
+                    <!-- Liens vers d'autres pages -->
+                    <li><a href="Profil.html" class="fa fa-user-circle-o" aria-hidden="true"> Profil</a></li>
+                    <li><a href="contact.html" class="fa fa-comment-o" aria-hidden="true"> Contact</a></li>
+                </ul>
+                <!-- Bouton du menu pour les appareils mobiles -->
+                <label for="menu-btn" class="btn menu-btn"><i class="fa fa-bars"></i></label>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section principale de la page -->
+    <main>
+        <!-- Titre de la section -->
+        <h1>Shop</h1>
+        <!-- Conteneur des produits avec des liens d'achat -->
+        <div id="produit">
+            <!-- Modèle 1 -->
+            <div class="model">
+                <h3>718 Cayman</h3>
+                <img src="img/Porsche/car/718Cayman.png" alt="718 Cayman">
+                <a href="gt3-rs.html">Acheter</a>
+                <a href="https://www.porsche.com/belgium/fr/">Lien du magasin</a>
+            </div>
+            <!-- Modèle 2 -->
+            <div class="model">
+                <h3>911</h3>
+                <img src="img/Porsche/car/911.png" alt="911">
+                <a href="gt3-rs.html">Acheter</a>
+                <a href="https://www.porsche.com/belgium/fr/">Lien du magasin</a>
+            </div>
+            <!-- Modèle 3 -->
+            <div class="model">
+                <h3>911 GT3 RS</h3>
+                <img src="img/Porsche/car/911GT3RS.png" alt="911GT3RS">
+                <a href="gt3-rs.html">Acheter</a>
+                <a href="https://www.porsche.com/belgium/fr/">Lien du magasin</a>
+            </div>
+            <!-- Modèle 4 -->
+            <div class="model">
+                <h3>Cayenne</h3>
+                <img src="img/Porsche/car/Cayenne.png" alt="Cayenne">
+                <a href="gt3-rs.html">Acheter</a>
+                <a href="https://www.porsche.com/belgium/fr/">Lien du magasin</a>
+            </div>
+            <!-- Modèle 5 -->
+            <div class="model">
+                <h3>Macan</h3>
+                <img src="img/Porsche/car/macan.png" alt="Macan">
+                <a href="gt3-rs.html">Acheter</a>
+                <a href="https://www.porsche.com/belgium/fr/">Lien du magasin</a>
+            </div>
+            <!-- Modèle 6 -->
+            <div class="model">
+                <h3>Taycan</h3>
+                <img src="img/Porsche/car/taycan.png" alt="Taycan">
+                <a href="gt3-rs.html">Acheter</a>
+                <a href="https://www.porsche.com/belgium/fr/">Lien du magasin</a>
+            </div>
+        </div>
+            <!-- Carte Google Maps -->
+            <h2>Où se situe le porsche</h2>
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.2581776388834!2d9.149979576776822!3d48.83421390240711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799da8732ced9e1%3A0x3c80648eb55f7987!2sPorsche!5e0!3m2!1sfr!2sbe!4v1707464685023!5m2!1sfr!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <!-- Section avec des informations sur le créateur du site -->
+        <div class="txt-footer">
+            <h3>À Propos</h3>
+            <p>© 2023 Docquier. Tous droits réservés. Ce site a été créé dans le cadre de l'examen de web. Conçu avec passion et dévouement pour l'apprentissage. L'aventure continue... </p>
+        </div>
+        <!-- Section avec des liens -->
+        <div class="liens-footer">
+            <h3>Liens</h3>
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Contributions</a></li>
+                <li><a href="#">Copyright&copy;</a></li>
+            </ul>
+        </div>
+        <!-- Section avec des liens vers les réseaux sociaux -->
+        <div class="social-footer">
+            <h3>Nos réseaux</h3>
+            <ul>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
